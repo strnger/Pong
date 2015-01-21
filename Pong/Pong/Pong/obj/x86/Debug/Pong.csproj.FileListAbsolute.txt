@@ -1,0 +1,10 @@
+F:\Comp sci\comp 475-2 game dev\first project\Pong\Pong\Pong\bin\x86\Debug\Content\basketball.xnb
+F:\Comp sci\comp 475-2 game dev\first project\Pong\Pong\Pong\bin\x86\Debug\Pong.exe
+F:\Comp sci\comp 475-2 game dev\first project\Pong\Pong\Pong\bin\x86\Debug\Pong.pdb
+F:\Comp sci\comp 475-2 game dev\first project\Pong\Pong\Pong\obj\x86\Debug\Pong.csprojResolveAssemblyReference.cache
+F:\Comp sci\comp 475-2 game dev\first project\Pong\Pong\Pong\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+F:\Comp sci\comp 475-2 game dev\first project\Pong\Pong\Pong\obj\x86\Debug\Pong.exe
+F:\Comp sci\comp 475-2 game dev\first project\Pong\Pong\Pong\obj\x86\Debug\Pong.pdb
+F:\Comp sci\comp 475-2 game dev\first project\Pong\Pong\Pong\bin\x86\Debug\Content\hand.xnb
+F:\Comp sci\comp 475-2 game dev\first project\Pong\Pong\Pong\bin\x86\Debug\Content\crash.xnb
+F:\Comp sci\comp 475-2 game dev\first project\Pong\Pong\Pong\bin\x86\Debug\Content\swish.xnb
