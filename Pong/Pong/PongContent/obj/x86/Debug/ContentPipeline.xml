@@ -2,40 +2,40 @@
 <XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
   <Asset Type="Pipeline:BuildItemCollection">
     <Item>
-      <Source>basketball.png</Source>
-      <Name>basketball</Name>
+      <Source>Images\basketball.png</Source>
+      <Name>Images\basketball</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Comp sci\comp 475-2 game dev\first project\Pong\Pong\Pong\bin\x86\Debug\Content\basketball.xnb</Output>
-      <Time>2015-01-19T11:18:56-06:00</Time>
+      <Output>C:\Users\kcozad\Desktop\GitHub\Pong\Pong\Pong\Pong\bin\x86\Debug\Content\Images\basketball.xnb</Output>
+      <Time>2015-01-24T16:54:29.3515224-06:00</Time>
     </Item>
     <Item>
-      <Source>hand.png</Source>
-      <Name>hand</Name>
+      <Source>Images\hand.png</Source>
+      <Name>Images\hand</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Comp sci\comp 475-2 game dev\first project\Pong\Pong\Pong\bin\x86\Debug\Content\hand.xnb</Output>
-      <Time>2015-01-19T11:33:12-06:00</Time>
+      <Output>C:\Users\kcozad\Desktop\GitHub\Pong\Pong\Pong\Pong\bin\x86\Debug\Content\Images\hand.xnb</Output>
+      <Time>2015-01-24T16:54:29.3565255-06:00</Time>
     </Item>
     <Item>
-      <Source>crash.wav</Source>
-      <Name>crash</Name>
+      <Source>Audio\crash.wav</Source>
+      <Name>Audio\crash</Name>
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Comp sci\comp 475-2 game dev\first project\Pong\Pong\Pong\bin\x86\Debug\Content\crash.xnb</Output>
-      <Time>2015-01-19T11:56:08-06:00</Time>
+      <Output>C:\Users\kcozad\Desktop\GitHub\Pong\Pong\Pong\Pong\bin\x86\Debug\Content\Audio\crash.xnb</Output>
+      <Time>2015-01-24T16:54:29.3565255-06:00</Time>
     </Item>
     <Item>
-      <Source>swish.wav</Source>
-      <Name>swish</Name>
+      <Source>Audio\swish.wav</Source>
+      <Name>Audio\swish</Name>
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>F:\Comp sci\comp 475-2 game dev\first project\Pong\Pong\Pong\bin\x86\Debug\Content\swish.xnb</Output>
-      <Time>2015-01-19T11:56:30-06:00</Time>
+      <Output>C:\Users\kcozad\Desktop\GitHub\Pong\Pong\Pong\Pong\bin\x86\Debug\Content\Audio\swish.xnb</Output>
+      <Time>2015-01-24T16:54:29.3615287-06:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -43,10 +43,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>F:\Comp sci\comp 475-2 game dev\first project\Pong\Pong\PongContent\</RootDirectory>
-      <LoggerRootDirectory>F:\Comp sci\comp 475-2 game dev\first project\Pong\Pong\Pong\</LoggerRootDirectory>
-      <IntermediateDirectory>F:\Comp sci\comp 475-2 game dev\first project\Pong\Pong\PongContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>F:\Comp sci\comp 475-2 game dev\first project\Pong\Pong\Pong\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\kcozad\Desktop\GitHub\Pong\Pong\Pong\PongContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\kcozad\Desktop\GitHub\Pong\Pong\Pong\Pong\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\kcozad\Desktop\GitHub\Pong\Pong\Pong\PongContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\kcozad\Desktop\GitHub\Pong\Pong\Pong\Pong\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
@@ -75,7 +75,7 @@
       </Assembly>
       <Assembly>
         <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2015-01-15T16:01:55.8289053-06:00</Value>
+        <Value>2015-01-15T16:30:14.0216987-06:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>

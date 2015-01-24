@@ -8,3 +8,13 @@ F:\Comp sci\comp 475-2 game dev\first project\Pong\Pong\Pong\obj\x86\Debug\Pong.
 F:\Comp sci\comp 475-2 game dev\first project\Pong\Pong\Pong\bin\x86\Debug\Content\hand.xnb
 F:\Comp sci\comp 475-2 game dev\first project\Pong\Pong\Pong\bin\x86\Debug\Content\crash.xnb
 F:\Comp sci\comp 475-2 game dev\first project\Pong\Pong\Pong\bin\x86\Debug\Content\swish.xnb
+C:\Users\kcozad\Desktop\GitHub\Pong\Pong\Pong\Pong\obj\x86\Debug\Pong.csprojResolveAssemblyReference.cache
+C:\Users\kcozad\Desktop\GitHub\Pong\Pong\Pong\Pong\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\kcozad\Desktop\GitHub\Pong\Pong\Pong\Pong\obj\x86\Debug\Pong.exe
+C:\Users\kcozad\Desktop\GitHub\Pong\Pong\Pong\Pong\bin\x86\Debug\Pong.exe
+C:\Users\kcozad\Desktop\GitHub\Pong\Pong\Pong\Pong\bin\x86\Debug\Pong.pdb
+C:\Users\kcozad\Desktop\GitHub\Pong\Pong\Pong\Pong\obj\x86\Debug\Pong.pdb
+C:\Users\kcozad\Desktop\GitHub\Pong\Pong\Pong\Pong\bin\x86\Debug\Content\Images\basketball.xnb
+C:\Users\kcozad\Desktop\GitHub\Pong\Pong\Pong\Pong\bin\x86\Debug\Content\Images\hand.xnb
+C:\Users\kcozad\Desktop\GitHub\Pong\Pong\Pong\Pong\bin\x86\Debug\Content\Audio\crash.xnb
+C:\Users\kcozad\Desktop\GitHub\Pong\Pong\Pong\Pong\bin\x86\Debug\Content\Audio\swish.xnb
