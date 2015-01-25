@@ -27,7 +27,7 @@ namespace Pong
         // Paddle location
         protected Vector2 paddlePosition;
 
-        protected const float DEFAULT_X_SPEED = 250;
+        protected const float DEFAULT_Y_SPEED = 250;
 
         #endregion
 
@@ -101,7 +101,7 @@ namespace Pong
             X = (GraphicsDevice.Viewport.Width - Width) / 2;
             Y = GraphicsDevice.Viewport.Height - Height;
 
-            Speed = DEFAULT_X_SPEED;
+            Speed = DEFAULT_Y_SPEED;
         }
 
         /// <summary>
@@ -152,7 +152,7 @@ namespace Pong
             X =  2;
             Y = (GraphicsDevice.Viewport.Height - Height)/2;
 
-            Speed = DEFAULT_X_SPEED;
+            Speed = DEFAULT_Y_SPEED;
         }
 
         /// <summary>
@@ -197,15 +197,41 @@ namespace Pong
             X = (GraphicsDevice.Viewport.Width - Width) - 2;
             Y = (GraphicsDevice.Viewport.Height - Height) / 2;
 
-            Speed = DEFAULT_X_SPEED;
+            Speed = DEFAULT_Y_SPEED;
         }
 
         protected override void LoadContent()
         {
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
-            paddleSprite = contentManager.Load<Texture2D>(@"Content\Images\hand");
+            paddleSprite = contentManager.Load<Texture2D>(@"Content\Images\foot");
         }
+
+        public override void Update(GameTime gameTime)
+        {
+            // Scale the movement based on time
+            float moveDistance = Speed * (float)gameTime.ElapsedGameTime.TotalSeconds;
+
+            // Move paddle, but don't allow movement off the screen
+
+            Ball ball = Game.Components[0] as Ball;
+            
+
+            if (ball.Y > paddlePosition.Y  && Y + paddleSprite.Height
+                + moveDistance <= GraphicsDevice.Viewport.Height)
+            {
+                Y += moveDistance;
+            }
+            else if (ball.Y < paddlePosition.Y && Y - moveDistance >= 0)
+            {
+                Y -= moveDistance;
+            }
+
+
+            base.Update(gameTime);
+        }
+
+
     }
 
 }

@@ -18,3 +18,4 @@ C:\Users\kcozad\Desktop\GitHub\Pong\Pong\Pong\Pong\bin\x86\Debug\Content\Images\
 C:\Users\kcozad\Desktop\GitHub\Pong\Pong\Pong\Pong\bin\x86\Debug\Content\Images\hand.xnb
 C:\Users\kcozad\Desktop\GitHub\Pong\Pong\Pong\Pong\bin\x86\Debug\Content\Audio\crash.xnb
 C:\Users\kcozad\Desktop\GitHub\Pong\Pong\Pong\Pong\bin\x86\Debug\Content\Audio\swish.xnb
+C:\Users\kcozad\Desktop\GitHub\Pong\Pong\Pong\Pong\bin\x86\Debug\Content\Images\foot.xnb

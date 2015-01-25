@@ -28,7 +28,7 @@ namespace Pong
     {
         private GraphicsDeviceManager graphics;
 
-        private Ball ball;
+        protected Ball ball;
         private PaddleHuman paddleHuman;
         private PaddleComputer paddleComputer;
 
@@ -121,6 +121,8 @@ namespace Pong
             {
                 graphics.IsFullScreen = !graphics.IsFullScreen;
                 graphics.ApplyChanges();
+
+                paddleComputer.X = (GraphicsDevice.Viewport.Width - paddleComputer.Width) - 2;
             }
 
             // Wait until a second has passed before animating ball 
@@ -185,7 +187,27 @@ namespace Pong
                 ball.ChangeVertDirection();
                 ball.SpeedUp();                
             }
-            
+
+            // Collision?  Check rectangle intersection between ball and hand
+            if (ball.Boundary.Intersects(paddleComputer.Boundary) && ball.SpeedY < 0)
+            {
+                swishSound.Play();
+
+                // If hitting the side of the paddle the ball is coming toward, 
+                // switch the ball's horz direction
+                float ballMiddle = (ball.X + ball.Width) / 2;
+                float paddleMiddle = (paddleComputer.X + paddleComputer.Width) / 2;
+                if ((ballMiddle < paddleMiddle && ball.SpeedX > 0) ||
+                    (ballMiddle > paddleMiddle && ball.SpeedX < 0))
+                {
+                    ball.ChangeHorzDirection();
+                }
+
+                // Go back up the screen and speed up
+                ball.ChangeVertDirection();
+                ball.SpeedUp();
+            }
+
             base.Update(gameTime);
         }
 

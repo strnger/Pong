@@ -122,6 +122,18 @@ namespace Pong
             ballSpeed.X = DEFAULT_X_SPEED;
             ballSpeed.Y = DEFAULT_Y_SPEED;
 
+            //This deals with the whether the ball goes left or right
+            Random rand = new Random();
+            int left_or_right = new int();
+            left_or_right = rand.Next(0, 2);
+
+            if (left_or_right == 0) // send the ball left
+            {
+                ballSpeed.X *= -1;
+                ballSpeed.Y *= -1;
+            }
+
+
             ballPosition.Y = (GraphicsDevice.Viewport.Height - Height) / 2;
             ballPosition.X = (GraphicsDevice.Viewport.Width - Width) / 2;
         }
@@ -159,18 +171,6 @@ namespace Pong
         }
 
         /// <summary>
-        /// Allows the game component to perform any initialization it needs to before starting
-        /// to run.  This is where it can query for any required services and load content.
-        /// </summary>
-        public override void Initialize()
-        {
-            ballPosition.X = INIT_X_POS;
-            ballPosition.Y = INIT_Y_POS;
-
-            base.Initialize();
-        }
-
-        /// <summary>
         /// LoadContent will be called once per game and is the place to load
         /// all of your content.
         /// </summary>
@@ -180,6 +180,18 @@ namespace Pong
 
             // Load the texture if it exists
             ballSprite = contentManager.Load<Texture2D>(@"Content\Images\basketball");
+        }
+
+        /// <summary>
+        /// Allows the game component to perform any initialization it needs to before starting
+        /// to run.  This is where it can query for any required services and load content.
+        /// </summary>
+        public override void Initialize()
+        {
+            ballPosition.X = 360;
+            ballPosition.Y = 200;
+
+            base.Initialize();
         }
 
         /// <summary>

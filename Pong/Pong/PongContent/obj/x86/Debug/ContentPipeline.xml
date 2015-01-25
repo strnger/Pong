@@ -37,6 +37,15 @@
       <Output>C:\Users\kcozad\Desktop\GitHub\Pong\Pong\Pong\Pong\bin\x86\Debug\Content\Audio\swish.xnb</Output>
       <Time>2015-01-24T16:54:29.3615287-06:00</Time>
     </Item>
+    <Item>
+      <Source>Images\foot.jpg</Source>
+      <Name>Images\foot</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\kcozad\Desktop\GitHub\Pong\Pong\Pong\Pong\bin\x86\Debug\Content\Images\foot.xnb</Output>
+      <Time>2015-01-24T22:11:44.7916733-06:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>
