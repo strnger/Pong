@@ -108,6 +108,11 @@ namespace Pong
         }
         #endregion
 
+        public float getBallHeight()
+        {
+            return ballSprite.Height;
+        }
+
         public Ball(Game game)
             : base(game)
         {

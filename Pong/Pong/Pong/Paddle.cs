@@ -215,23 +215,27 @@ namespace Pong
             // Move paddle, but don't allow movement off the screen
 
             Ball ball = Game.Components[0] as Ball;
-            
 
-            if (ball.Y > paddlePosition.Y  && Y + paddleSprite.Height
+            float ballHeight = ball.getBallHeight();
+
+            //down
+            if (ball.Y + ballHeight / 2 > paddlePosition.Y + paddleSprite.Height / 2  && Y + paddleSprite.Height
                 + moveDistance <= GraphicsDevice.Viewport.Height)
             {
                 Y += moveDistance;
             }
-            else if (ball.Y < paddlePosition.Y && Y - moveDistance >= 0)
+            //up
+            else if (ball.Y - ballHeight / 2 < paddlePosition.Y - paddleSprite.Height / 2 && Y - moveDistance >= 0)
             {
                 Y -= moveDistance;
             }
-
+            //else
+            //{
+            //    moveDistance = 0;
+            //}
 
             base.Update(gameTime);
         }
-
-
     }
 
 }
