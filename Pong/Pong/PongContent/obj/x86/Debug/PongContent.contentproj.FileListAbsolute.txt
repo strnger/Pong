@@ -1,2 +1,3 @@
 F:\Comp sci\comp 475-2 game dev\first project\Pong\Pong\PongContent\obj\x86\Debug\PongContent.contentprojResolveAssemblyReference.cache
 C:\Users\kcozad\Desktop\GitHub\Pong\Pong\Pong\PongContent\obj\x86\Debug\PongContent.contentprojResolveAssemblyReference.cache
+C:\Users\Mallory Eaton\Documents\GitHub\Pong\Pong\Pong\PongContent\obj\x86\Debug\PongContent.contentprojResolveAssemblyReference.cache

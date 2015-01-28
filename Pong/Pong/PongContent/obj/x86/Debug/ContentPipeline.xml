@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\kcozad\Desktop\GitHub\Pong\Pong\Pong\Pong\bin\x86\Debug\Content\Images\basketball.xnb</Output>
-      <Time>2015-01-24T16:54:29.3515224-06:00</Time>
+      <Output>C:\Users\Mallory Eaton\Documents\GitHub\Pong\Pong\Pong\Pong\bin\x86\Debug\Content\Images\basketball.xnb</Output>
+      <Time>2015-01-27T17:38:34.5899837-06:00</Time>
     </Item>
     <Item>
       <Source>Images\hand.png</Source>
@@ -16,26 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\kcozad\Desktop\GitHub\Pong\Pong\Pong\Pong\bin\x86\Debug\Content\Images\hand.xnb</Output>
-      <Time>2015-01-24T16:54:29.3565255-06:00</Time>
-    </Item>
-    <Item>
-      <Source>Audio\crash.wav</Source>
-      <Name>Audio\crash</Name>
-      <Importer>WavImporter</Importer>
-      <Processor>SoundEffectProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\kcozad\Desktop\GitHub\Pong\Pong\Pong\Pong\bin\x86\Debug\Content\Audio\crash.xnb</Output>
-      <Time>2015-01-24T16:54:29.3565255-06:00</Time>
-    </Item>
-    <Item>
-      <Source>Audio\swish.wav</Source>
-      <Name>Audio\swish</Name>
-      <Importer>WavImporter</Importer>
-      <Processor>SoundEffectProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\kcozad\Desktop\GitHub\Pong\Pong\Pong\Pong\bin\x86\Debug\Content\Audio\swish.xnb</Output>
-      <Time>2015-01-24T16:54:29.3615287-06:00</Time>
+      <Output>C:\Users\Mallory Eaton\Documents\GitHub\Pong\Pong\Pong\Pong\bin\x86\Debug\Content\Images\hand.xnb</Output>
+      <Time>2015-01-27T17:38:34.5929839-06:00</Time>
     </Item>
     <Item>
       <Source>Images\foot.jpg</Source>
@@ -43,8 +25,26 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\kcozad\Desktop\GitHub\Pong\Pong\Pong\Pong\bin\x86\Debug\Content\Images\foot.xnb</Output>
-      <Time>2015-01-24T22:11:44.7916733-06:00</Time>
+      <Output>C:\Users\Mallory Eaton\Documents\GitHub\Pong\Pong\Pong\Pong\bin\x86\Debug\Content\Images\foot.xnb</Output>
+      <Time>2015-01-27T17:38:34.5919838-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\crash.wav</Source>
+      <Name>Audio\crash</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Mallory Eaton\Documents\GitHub\Pong\Pong\Pong\Pong\bin\x86\Debug\Content\Audio\crash.xnb</Output>
+      <Time>2015-01-27T17:38:34.5859835-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\swish.wav</Source>
+      <Name>Audio\swish</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Mallory Eaton\Documents\GitHub\Pong\Pong\Pong\Pong\bin\x86\Debug\Content\Audio\swish.xnb</Output>
+      <Time>2015-01-27T17:38:34.5889837-06:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -52,10 +52,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\kcozad\Desktop\GitHub\Pong\Pong\Pong\PongContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\kcozad\Desktop\GitHub\Pong\Pong\Pong\Pong\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\kcozad\Desktop\GitHub\Pong\Pong\Pong\PongContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\kcozad\Desktop\GitHub\Pong\Pong\Pong\Pong\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Mallory Eaton\Documents\GitHub\Pong\Pong\Pong\PongContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Mallory Eaton\Documents\GitHub\Pong\Pong\Pong\Pong\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Mallory Eaton\Documents\GitHub\Pong\Pong\Pong\PongContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Mallory Eaton\Documents\GitHub\Pong\Pong\Pong\Pong\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
@@ -83,8 +83,8 @@
         <Value>2010-08-23T13:41:18-05:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2015-01-15T16:30:14.0216987-06:00</Value>
+        <Key>C:\windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2015-01-18T14:53:34.3929757-06:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>
