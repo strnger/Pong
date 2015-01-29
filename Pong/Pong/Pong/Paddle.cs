@@ -216,7 +216,7 @@ namespace Pong
 
             Ball ball = Game.Components[0] as Ball;
 
-            int ballHeight = ball.Height;
+            float ballHeight = ball.getBallHeight();
 
             //down
             if (ball.Y + ballHeight / 2 > paddlePosition.Y + paddleSprite.Height / 2  && Y + paddleSprite.Height

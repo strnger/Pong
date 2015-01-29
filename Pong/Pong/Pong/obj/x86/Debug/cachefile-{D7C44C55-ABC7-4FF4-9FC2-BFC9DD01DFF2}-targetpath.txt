@@ -1,5 +1,6 @@
 Content\Images\basketball.xnb
 Content\Images\hand.xnb
 Content\Images\foot.xnb
+Content\Images\green.xnb
 Content\Audio\crash.xnb
 Content\Audio\swish.xnb

@@ -32,8 +32,15 @@ namespace Pong
         // Increase in speed each hit
         private const float INCREASE_SPEED = 50;
 
-        // Ball image
-        private Texture2D ballSprite;
+        // Texture stuff
+        Texture2D ballSprite;
+        Point frameSize = new Point(33, 33);
+        Point currentFrame = new Point(0, 0);
+        Point sheetSize = new Point(6, 2);
+
+        // Framerate stuff
+        int timeSinceLastFrame = 0;
+        int millisecondsPerFrame = 50;
 
         // Ball location
         Vector2 ballPosition;
@@ -84,7 +91,7 @@ namespace Pong
         /// </summary>
         public int Width
         {
-            get { return ballSprite.Width; }
+            get { return frameSize.X; }
         }
 
         /// <summary>
@@ -92,7 +99,7 @@ namespace Pong
         /// </summary>
         public int Height
         {
-            get { return ballSprite.Height; }
+            get { return frameSize.Y; }
         }
 
         /// <summary>
@@ -179,7 +186,7 @@ namespace Pong
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
             // Load the texture if it exists
-            ballSprite = contentManager.Load<Texture2D>(@"Content\Images\basketball");
+            ballSprite = contentManager.Load<Texture2D>(@"Content\Images\green");
         }
 
         /// <summary>
@@ -203,6 +210,19 @@ namespace Pong
             // Move the sprite by speed, scaled by elapsed time.
             ballPosition += ballSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
 
+              timeSinceLastFrame += gameTime.ElapsedGameTime.Milliseconds; if (timeSinceLastFrame > millisecondsPerFrame)
+            {
+                timeSinceLastFrame -= millisecondsPerFrame;
+                ++currentFrame.X;
+                if (currentFrame.X >= sheetSize.X)
+                {
+                    currentFrame.X = 0;
+                    ++currentFrame.Y;
+                    if (currentFrame.Y >= sheetSize.Y)
+                        currentFrame.Y = 0;
+                }
+            }
+
             base.Update(gameTime);
         }
 
@@ -214,8 +234,14 @@ namespace Pong
         {
             base.Draw(gameTime);
 
-            spriteBatch.Begin();
-            spriteBatch.Draw(ballSprite, ballPosition, Color.White);
+            spriteBatch.Begin(SpriteSortMode.FrontToBack, BlendState.AlphaBlend);
+            spriteBatch.Draw(ballSprite, ballPosition,
+               new Rectangle(currentFrame.X * frameSize.X,
+                   currentFrame.Y * frameSize.Y,
+                   frameSize.X,
+                   frameSize.Y),
+               Color.White, 0, Vector2.Zero,
+               1, SpriteEffects.None, 0);
             spriteBatch.End();
         }
     }

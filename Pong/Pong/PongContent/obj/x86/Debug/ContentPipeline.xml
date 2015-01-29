@@ -29,6 +29,15 @@
       <Time>2015-01-27T17:38:34.5919838-06:00</Time>
     </Item>
     <Item>
+      <Source>Images\green.png</Source>
+      <Name>Images\green</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Mallory Eaton\Documents\GitHub\Pong\Pong\Pong\Pong\bin\x86\Debug\Content\Images\green.xnb</Output>
+      <Time>2015-01-29T11:20:58.8345779-06:00</Time>
+    </Item>
+    <Item>
       <Source>Audio\crash.wav</Source>
       <Name>Audio\crash</Name>
       <Importer>WavImporter</Importer>
